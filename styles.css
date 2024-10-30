@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400; /* Peso de fuente normal */
+    margin: 0;
+    padding: 0;
+    background: #1b1b1b;
+    color: #f0f0f0;
+    background-image: url('asss.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    font-size: 12px; /* Tamaño de fuente reducido */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.header-main {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8f2dc4;
+}
+
+.nav-main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-main ul li {
+    margin: 0 15px;
+}
+
+.nav-main ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 8px 16px; /* Tamaño reducido */
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+    font-size: 12px; /* Tamaño de fuente reducido */
+    font-weight: 400; /* Peso de fuente normal */
+}
+
+.nav-main ul li a:hover {
+    background: #8f2dc4;
+    color: #000;
+}
+
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+.experience-section {
+    text-align: left;
+}
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 200px; /* Tamaño reducido */
+    height: 200px; /* Tamaño reducido */
+    border-radius: 50%;
+    border: 3px solid #8f2dc4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 14px; /* Tamaño de fuente reducido */
+    color: #8f2dc4;
+}
+
+.job p {
+    margin: 5px 0 0 0;
+    font-size: 12px; /* Tamaño de fuente reducido */
+    color: #f0f0f0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.9);
+    border-top: 1px solid #8f2dc4;
+    font-size: 12px; /* Tamaño de fuente reducido */
+    font-weight: 400; /* Peso de fuente normal */
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .nav-main ul {
+        flex-direction: column;
+    }
+
+    .nav-main ul li {
+        margin: 5px 0;
+    }
+}
